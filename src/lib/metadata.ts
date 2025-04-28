@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 import { WEBSITE_HOST_URL } from './constants'
 
 const meta = {
-  title: 'Gino Notes',
-  description: "Gino Zhang's personal blog. I write about product, development and life.",
+  title: '椰子',
+  description: "椰子's personal blog. I write about product, development and life.",
   image: `${WEBSITE_HOST_URL}/logo.jpg`,
-  author: 'Gino Zhang',
+  author: '椰子',
 }
 
 // Schema.org 结构化数据
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(WEBSITE_HOST_URL),
   title: {
     default: meta.title,
-    template: '%s | Gino Notes',
+    template: '%s | 椰子',
   },
   description: meta.description,
   openGraph: {

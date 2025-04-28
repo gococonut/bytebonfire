@@ -89,9 +89,9 @@ export function Navigation() {
               ))}
             </ul>
 
-            <NavigationSection section={{ title: "Posts", items: navigation.posts }} />
-            <NavigationSection section={{ title: "Projects", items: navigation.projects }} />
-            <NavigationSection section={{ title: "Online", items: navigation.online }} />
+            <NavigationSection section={{ title: "文章", items: navigation.posts }} />
+            {/* <NavigationSection section={{ title: "Projects", items: navigation.projects }} /> */}
+            {/* <NavigationSection section={{ title: "Online", items: navigation.online }} /> */}
           </div>
 
           {/* 底部工具栏 */}

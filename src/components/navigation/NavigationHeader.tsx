@@ -18,16 +18,16 @@ export function NavigationHeader({ onMenuClick, onSearchClick }: NavigationHeade
           <FaBars className="w-5 h-5" />
         </button>
         <div className="flex items-center gap-3">
-          <Image
+          {/* <Image
             src="/avatar.jpg"
-            alt="Gino"
+            alt="椰子"
             width={32}
             height={32}
             className="rounded-full"
           />
           <span className="font-medium text-gray-900 dark:text-gray-100">
-            Gino
-          </span>
+            椰子
+          </span> */}
         </div>
         <div className="flex items-center gap-2">
           <ThemeSwitch className="lg:hidden" />

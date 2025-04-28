@@ -5,6 +5,8 @@ export const CATEGORY_MAP = {
   build: '构建之路',
   reading: '阅读记录',
   thoughts: '随想思考',
+  github: "Github Trending",
+  hackernews: "Hacker News"
 } as const
 
 // 默认的封面图片

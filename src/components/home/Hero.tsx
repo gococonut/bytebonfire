@@ -26,7 +26,7 @@ export function Hero() {
                 className="relative mx-auto max-w-6xl px-4 text-center"
             >
                 <h1 className="relative mx-auto max-w-4xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-600 bg-clip-text pb-3 text-3xl font-bold text-transparent dark:from-gray-100 dark:via-gray-200 dark:to-gray-400 md:text-4xl lg:text-5xl">
-                    探索技术的无限可能
+                    Hoho, you found me!
                     <motion.span
                         className="absolute -right-4 top-0 text-blue-500 dark:text-blue-400"
                         animate={{
@@ -43,12 +43,12 @@ export function Hero() {
                     </motion.span>
                 </h1>
                 <p className="mt-4 text-base text-gray-600 dark:text-gray-400">
-                    分享开发、产品和生活的思考
+                    分享AI 处理的内容摘要，播客文稿，技术分享
                 </p>
 
                 {/* 技能标签 */}
                 <div className="mt-6 flex flex-wrap justify-center gap-2">
-                    {['Java', 'Spring', 'MongoDB', 'Next.js', 'Tailwind CSS', 'LLM', 'Workflow', 'Agent'].map((skill) => (
+                    {['Java', 'Spring', 'MongoDB', 'PHP', 'Python',  'Golong','SRE', 'LLM', 'Workflow', 'Agent'].map((skill) => (
                         <motion.span
                             key={skill}
                             initial={{ opacity: 0, scale: 0.8 }}

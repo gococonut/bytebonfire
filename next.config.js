@@ -18,6 +18,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'hub-image.moreve.net',
+      },
     ],
   },
   experimental: {

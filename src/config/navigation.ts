@@ -13,6 +13,9 @@ import {
   FaRobot,
   FaWeixin,
   FaFeather,
+  FaHackerNews,
+  FaHackerrank,
+  FaHackerNewsSquare,
 } from 'react-icons/fa'
 import { allPosts } from 'contentlayer/generated'
 import { createCategoryRoute } from '@/lib/routes'
@@ -29,34 +32,16 @@ export const navigation: NavigationConfig = {
   ],
   posts: [
     {
-      href: createCategoryRoute('dev'),
-      label: '编程开发',
-      icon: FaLaptopCode,
-      count: getCategoryCount('dev'),
+      href: createCategoryRoute('github'),
+      label: 'Github Trending',
+      icon: FaGithub,
+      count: getCategoryCount('github'),
     },
     {
-      href: createCategoryRoute('ai'),
-      label: '人工智能',
-      icon: FaBrain,
-      count: getCategoryCount('ai'),
-    },
-    {
-      href: createCategoryRoute('build'),
-      label: '构建之路',
-      icon: FaRocket,
-      count: getCategoryCount('build'),
-    },
-    {
-      href: createCategoryRoute('reading'),
-      label: '阅读记录',
-      icon: FaBook,
-      count: getCategoryCount('reading'),
-    },
-    {
-      href: createCategoryRoute('thoughts'),
-      label: '思考随笔',
-      icon: FaLightbulb,
-      count: getCategoryCount('thoughts'),
+      href: createCategoryRoute('hackernews'),
+      label: 'Hacker News',
+      icon: FaHackerNewsSquare,
+      count: getCategoryCount('hackernews'),
     },
   ],
   projects: [
